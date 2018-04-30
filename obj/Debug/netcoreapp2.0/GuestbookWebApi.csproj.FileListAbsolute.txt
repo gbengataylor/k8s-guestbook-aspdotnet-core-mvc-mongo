@@ -1,0 +1,10 @@
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/obj/Debug/netcoreapp2.0/GuestbookWebApi.csproj.CoreCompileInputs.cache
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/obj/Debug/netcoreapp2.0/GuestbookWebApi.AssemblyInfoInputs.cache
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/obj/Debug/netcoreapp2.0/GuestbookWebApi.AssemblyInfo.cs
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/bin/Debug/netcoreapp2.0/GuestbookWebApi.deps.json
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/bin/Debug/netcoreapp2.0/GuestbookWebApi.runtimeconfig.json
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/bin/Debug/netcoreapp2.0/GuestbookWebApi.runtimeconfig.dev.json
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/bin/Debug/netcoreapp2.0/GuestbookWebApi.dll
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/bin/Debug/netcoreapp2.0/GuestbookWebApi.pdb
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/obj/Debug/netcoreapp2.0/GuestbookWebApi.dll
+/home/josborne/Dropbox/JohnsDocuments/code/code/WebApiMongoDB/obj/Debug/netcoreapp2.0/GuestbookWebApi.pdb
