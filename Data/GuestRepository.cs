@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-
+using MongoDB.Bson;
 using GuestbookWebApi.Interfaces;
 using GuestbookWebApi.Model;
-using MongoDB.Bson;
+
 
 namespace GuestbookWebApi.Data
 {
@@ -53,6 +53,7 @@ namespace GuestbookWebApi.Data
 
                 return actionResult.IsAcknowledged
                     && actionResult.DeletedCount > 0;
+
             }
             catch (Exception ex)
             {
