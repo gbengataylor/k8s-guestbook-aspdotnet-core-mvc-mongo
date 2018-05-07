@@ -1,0 +1,26 @@
+{
+    "name": "server",
+    "guid": 1234567, 
+    "services": [ 
+        {
+               "name": "server",
+            "replicas": 4,
+            "containers": [
+                {
+                    "image": "docker-registry-default.52.170.196.188.nip.io/metaparticle/guestbook-summit:latest",
+                    "env": [{
+                        "name": "METAPARTICLE_IN_CONTAINER",
+                        "value": "true"
+                    }]
+                }
+            ],
+            "ports": [{
+                "number": 5000
+            }]
+        }
+    ],
+    "serve": {
+        "name": "server",
+        "public": true
+    }
+}
