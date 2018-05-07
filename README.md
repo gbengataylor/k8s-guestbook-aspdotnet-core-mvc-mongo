@@ -1,4 +1,4 @@
-# Example: Using MongoDB .NET Driver with .NET Core WebAPI
+# Example: Running the Kubernetes Guestbook app with ASP.NET Core with Metaparticle
 
  #### How to run it
  - TBD
