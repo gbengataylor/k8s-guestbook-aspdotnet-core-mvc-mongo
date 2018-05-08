@@ -16,10 +16,9 @@ namespace GuestbookWebApi
     {
         const int port = 5000;
         
-        //[Metaparticle.Runtime.Config(Ports = new int[] {port}, Executor = "metaparticle", Replicas = 4)]
         [Metaparticle.Runtime.Config(Ports = new int[] {port})]
         [Metaparticle.Package.Config(Repository = "docker-registry-default.52.170.196.188.nip.io/metaparticle/guestbook-summit:latest", 
-            Publish = false, 
+            Publish = true, 
             Verbose = true)]
         //public static void Main(string[] args) => Containerize(args, () =>
         public static void Main(string[] args)
@@ -36,6 +35,6 @@ namespace GuestbookWebApi
 
                 host.Run();
     	}
-        //});
+        });
     }
 }
