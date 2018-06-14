@@ -28,7 +28,7 @@ namespace GuestbookWebApi
                 .UseStartup<Startup>()
 				.UseKestrel(options => { options.Listen(IPAddress.Any, port); })
                 .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseWebRoot("exe/wwwroot/")
+                .UseWebRoot("/opt/app-root/app/wwwroot/")
                 .UseIISIntegration()
                 .UseUrls("http://*:5000")
                 .Build();
