@@ -18,7 +18,7 @@ namespace GuestbookWebApi
         
         [Metaparticle.Runtime.Config(Ports = new int[] {port})]
         [Metaparticle.Package.Config(Repository = "docker-registry-default.52.170.196.188.nip.io/metaparticle/guestbook-summit:latest", 
-            Publish = true, 
+            Publish = false, 
             Verbose = true)]
         //public static void Main(string[] args) => Containerize(args, () =>
         public static void Main(string[] args)
