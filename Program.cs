@@ -35,6 +35,6 @@ namespace GuestbookWebApi
 
                 host.Run();
     	}
-        });
+        //});
     }
 }
