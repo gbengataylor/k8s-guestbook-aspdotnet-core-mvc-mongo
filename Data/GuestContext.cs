@@ -11,8 +11,10 @@ namespace GuestbookWebApi.Data
         public GuestContext(IOptions<Settings> settings)
         {
             var client = new MongoClient(settings.Value.ConnectionString);
-            if (client != null)
+            if (client != null) 
+            {
                 _database = client.GetDatabase(settings.Value.Database);
+            }
         }
 
         public IMongoCollection<Guest> Guest
